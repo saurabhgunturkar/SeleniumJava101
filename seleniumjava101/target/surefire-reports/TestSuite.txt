@@ -1,0 +1,40 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 12, Errors: 0, Skipped: 0, Time elapsed: 240.747 sec <<< FAILURE! - in TestSuite
+dragDropTest(com.TC02_DragAndDropSliders)  Time elapsed: 0.915 sec  <<< FAILURE!
+org.testng.internal.thread.ThreadTimeoutException: Method com.TC02_DragAndDropSliders.dragDropTest() didn't finish within the time-out 20
+
+basicTest(com.TC01_ValidateMessage)  Time elapsed: 4.257 sec  <<< FAILURE!
+org.testng.internal.thread.ThreadTimeoutException: Method com.TC01_ValidateMessage.basicTest() didn't finish within the time-out 20
+
+formSubmissionTest(com.TC03_InputFormSubmission)  Time elapsed: 4.405 sec  <<< FAILURE!
+org.testng.internal.thread.ThreadTimeoutException: Method com.TC03_InputFormSubmission.formSubmissionTest() didn't finish within the time-out 20
+
+dragDropTest(com.TC02_DragAndDropSliders)  Time elapsed: 6.146 sec  <<< FAILURE!
+org.testng.internal.thread.ThreadTimeoutException: Method com.TC02_DragAndDropSliders.dragDropTest() didn't finish within the time-out 20
+
+basicTest(com.TC01_ValidateMessage)  Time elapsed: 7.836 sec  <<< FAILURE!
+org.testng.internal.thread.ThreadTimeoutException: Method com.TC01_ValidateMessage.basicTest() didn't finish within the time-out 20
+
+formSubmissionTest(com.TC03_InputFormSubmission)  Time elapsed: 11.75 sec  <<< FAILURE!
+org.testng.internal.thread.ThreadTimeoutException: Method com.TC03_InputFormSubmission.formSubmissionTest() didn't finish within the time-out 20
+
+basicTest(com.TC01_ValidateMessage)  Time elapsed: 7.246 sec  <<< FAILURE!
+org.testng.internal.thread.ThreadTimeoutException: Method com.TC01_ValidateMessage.basicTest() didn't finish within the time-out 20
+
+dragDropTest(com.TC02_DragAndDropSliders)  Time elapsed: 8.184 sec  <<< FAILURE!
+org.testng.internal.thread.ThreadTimeoutException: Method com.TC02_DragAndDropSliders.dragDropTest() didn't finish within the time-out 20
+
+formSubmissionTest(com.TC03_InputFormSubmission)  Time elapsed: 12.894 sec  <<< FAILURE!
+org.testng.internal.thread.ThreadTimeoutException: Method com.TC03_InputFormSubmission.formSubmissionTest() didn't finish within the time-out 20
+
+dragDropTest(com.TC02_DragAndDropSliders)  Time elapsed: 3.017 sec  <<< FAILURE!
+org.testng.internal.thread.ThreadTimeoutException: Method com.TC02_DragAndDropSliders.dragDropTest() didn't finish within the time-out 20
+
+basicTest(com.TC01_ValidateMessage)  Time elapsed: 3.757 sec  <<< FAILURE!
+org.testng.internal.thread.ThreadTimeoutException: Method com.TC01_ValidateMessage.basicTest() didn't finish within the time-out 20
+
+formSubmissionTest(com.TC03_InputFormSubmission)  Time elapsed: 2.936 sec  <<< FAILURE!
+org.testng.internal.thread.ThreadTimeoutException: Method com.TC03_InputFormSubmission.formSubmissionTest() didn't finish within the time-out 20
+
