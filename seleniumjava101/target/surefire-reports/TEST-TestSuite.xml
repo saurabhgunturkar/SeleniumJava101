@@ -1,68 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="240.747" tests="12" errors="0" skipped="0" failures="12">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="127.331" tests="12" errors="0" skipped="0" failures="12">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
-    <property name="java.vm.version" value="21.0.5+11-LTS"/>
-    <property name="sun.boot.library.path" value="C:\Users\10740035\AppData\Roaming\Code\User\globalStorage\pleiades.java-extension-pack-jdk\java\21\bin"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\Users\10740035\OneDrive - LTIMindtree\codes\Testing\SeleniumJava101\SeleniumJava101\seleniumjava101"/>
-    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
-    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="java.vm.version" value="11.0.25+9-LTS"/>
+    <property name="sun.boot.library.path" value="/home/gitpod/.sdkman/candidates/java/11.0.25.fx-zulu/lib"/>
+    <property name="jdk.vendor.version" value="Zulu11.76+21-CA"/>
+    <property name="maven.multiModuleProjectDirectory" value="/workspace/SeleniumJava101/seleniumjava101"/>
+    <property name="java.vm.vendor" value="Azul Systems, Inc."/>
+    <property name="java.vendor.url" value="http://www.azul.com/"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
-    <property name="path.separator" value=";"/>
+    <property name="path.separator" value=":"/>
     <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
-    <property name="sun.os.patch.level" value=""/>
-    <property name="user.script" value=""/>
-    <property name="user.country" value="IN"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Users\10740035\OneDrive - LTIMindtree\codes\Testing\SeleniumJava101\SeleniumJava101\seleniumjava101"/>
+    <property name="user.dir" value="/workspace/SeleniumJava101/seleniumjava101"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
-    <property name="java.runtime.version" value="21.0.5+11-LTS"/>
+    <property name="java.runtime.version" value="11.0.25+9-LTS"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
     <property name="os.arch" value="amd64"/>
-    <property name="java.io.tmpdir" value="C:\Users\10740035\AppData\Local\Temp\"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="user.variant" value=""/>
-    <property name="stderr.encoding" value="UTF-8"/>
-    <property name="os.name" value="Windows 11"/>
-    <property name="classworlds.conf" value="C:\Users\10740035\AppData\Roaming\Code\User\globalStorage\pleiades.java-extension-pack-jdk\maven\latest\bin\m2.conf"/>
-    <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="stdout.encoding" value="UTF-8"/>
-    <property name="java.library.path" value="C:\Users\10740035\AppData\Roaming\Code\User\globalStorage\pleiades.java-extension-pack-jdk\java\21\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\10740035\AppData\Roaming\Code\User\globalStorage\pleiades.java-extension-pack-jdk\gradle\latest\bin;C:\Users\10740035\AppData\Roaming\Code\User\globalStorage\pleiades.java-extension-pack-jdk\maven\latest\bin;C:\Users\10740035\AppData\Roaming\Code\User\globalStorage\pleiades.java-extension-pack-jdk\java\21\bin;C:\Program Files\OpenLogic\jdk-17.0.9.9-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\WindowsPowerShell\Scripts;C:\Program Files\ServiceNow\agent-client-collector\bin;C:\Program Files\ServiceNow\agent-client-collector\embedded\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\apache-maven-3.9.9\bin;C:\Users\10740035\AppData\Local\Microsoft\WindowsApps;C:\Users\10740035\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\10740035\AppData\Roaming\npm;."/>
-    <property name="maven.conf" value="C:\Users\10740035\AppData\Roaming\Code\User\globalStorage\pleiades.java-extension-pack-jdk\maven\latest/conf"/>
+    <property name="os.name" value="Linux"/>
+    <property name="classworlds.conf" value="/home/gitpod/.sdkman/candidates/maven/current/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="maven.conf" value="/home/gitpod/.sdkman/candidates/maven/current/conf"/>
     <property name="jdk.debug" value="release"/>
-    <property name="java.class.version" value="65.0"/>
+    <property name="java.class.version" value="55.0"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="os.version" value="10.0"/>
-    <property name="library.jansi.path" value="C:\Users\10740035\AppData\Roaming\Code\User\globalStorage\pleiades.java-extension-pack-jdk\maven\latest\lib\jansi-native"/>
+    <property name="os.version" value="6.1.91-060191-generic"/>
+    <property name="library.jansi.path" value="/home/gitpod/.sdkman/candidates/maven/current/lib/jansi-native"/>
     <property name="surefire.suiteXmlFiles" value="testng.xml"/>
-    <property name="user.home" value="C:\Users\10740035"/>
-    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="user.home" value="/home/gitpod"/>
+    <property name="user.timezone" value="Etc/UTC"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
     <property name="file.encoding" value="UTF-8"/>
-    <property name="java.specification.version" value="21"/>
-    <property name="user.name" value="10740035"/>
-    <property name="java.class.path" value="C:\Users\10740035\AppData\Roaming\Code\User\globalStorage\pleiades.java-extension-pack-jdk\maven\latest\boot\plexus-classworlds-2.8.0.jar"/>
-    <property name="java.vm.specification.version" value="21"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="user.name" value="gitpod"/>
+    <property name="java.class.path" value="/home/gitpod/.sdkman/candidates/maven/current/boot/plexus-classworlds-2.8.0.jar"/>
+    <property name="java.vm.specification.version" value="11"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -Dsurefire.suiteXmlFiles=testng.xml"/>
-    <property name="java.home" value="C:\Users\10740035\AppData\Roaming\Code\User\globalStorage\pleiades.java-extension-pack-jdk\java\21"/>
+    <property name="java.home" value="/home/gitpod/.sdkman/candidates/java/11.0.25.fx-zulu"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.vm.info" value="mixed mode, sharing"/>
-    <property name="java.version" value="21.0.5"/>
-    <property name="native.encoding" value="Cp1252"/>
-    <property name="java.vendor" value="Eclipse Adoptium"/>
-    <property name="maven.home" value="C:\Users\10740035\AppData\Roaming\Code\User\globalStorage\pleiades.java-extension-pack-jdk\maven\latest"/>
-    <property name="file.separator" value="\"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="11.0.25"/>
+    <property name="java.vendor" value="Azul Systems, Inc."/>
+    <property name="java.specification.maintenance.version" value="3"/>
+    <property name="maven.home" value="/home/gitpod/.sdkman/candidates/maven/current"/>
+    <property name="file.separator" value="/"/>
     <property name="java.version.date" value="2024-10-15"/>
-    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.vendor.url.bug" value="http://www.azul.com/support/"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.endian" value="little"/>
-    <property name="java.vendor.version" value="Temurin-21.0.5+11"/>
-    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="java.vendor.version" value="Zulu11.76+21-CA"/>
+    <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="dragDropTest" classname="com.TC02_DragAndDropSliders" time="0.915">
+  <testcase name="dragDropTest" classname="com.TC02_DragAndDropSliders" time="1.365">
     <failure message="Method com.TC02_DragAndDropSliders.dragDropTest() didn&apos;t finish within the time-out 20" type="org.testng.internal.thread.ThreadTimeoutException">org.testng.internal.thread.ThreadTimeoutException: Method com.TC02_DragAndDropSliders.dragDropTest() didn't finish within the time-out 20
 </failure>
     <system-out><![CDATA[95_______________
@@ -71,95 +71,95 @@ Range is matched
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Jan 15, 2025 3:13:48 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jan 15, 2025 9:53:11 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-Jan 15, 2025 3:13:51 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jan 15, 2025 9:53:12 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="dragDropTest" classname="com.TC02_DragAndDropSliders" time="6.146">
+  <testcase name="dragDropTest" classname="com.TC02_DragAndDropSliders" time="4.429">
     <failure message="Method com.TC02_DragAndDropSliders.dragDropTest() didn&apos;t finish within the time-out 20" type="org.testng.internal.thread.ThreadTimeoutException">org.testng.internal.thread.ThreadTimeoutException: Method com.TC02_DragAndDropSliders.dragDropTest() didn't finish within the time-out 20
 </failure>
     <system-out><![CDATA[95_______________
 Range is matched
 ]]></system-out>
-    <system-err><![CDATA[Jan 15, 2025 3:14:14 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-Jan 15, 2025 3:14:15 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
   </testcase>
-  <testcase name="dragDropTest" classname="com.TC02_DragAndDropSliders" time="8.184">
+  <testcase name="dragDropTest" classname="com.TC02_DragAndDropSliders" time="5.73">
     <failure message="Method com.TC02_DragAndDropSliders.dragDropTest() didn&apos;t finish within the time-out 20" type="org.testng.internal.thread.ThreadTimeoutException">org.testng.internal.thread.ThreadTimeoutException: Method com.TC02_DragAndDropSliders.dragDropTest() didn't finish within the time-out 20
 </failure>
     <system-out><![CDATA[94_______________
 Range is not matched!
 ]]></system-out>
+    <system-err><![CDATA[Jan 15, 2025 9:54:18 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Jan 15, 2025 9:54:19 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
   </testcase>
-  <testcase name="dragDropTest" classname="com.TC02_DragAndDropSliders" time="3.017">
+  <testcase name="dragDropTest" classname="com.TC02_DragAndDropSliders" time="2.443">
     <failure message="Method com.TC02_DragAndDropSliders.dragDropTest() didn&apos;t finish within the time-out 20" type="org.testng.internal.thread.ThreadTimeoutException">org.testng.internal.thread.ThreadTimeoutException: Method com.TC02_DragAndDropSliders.dragDropTest() didn't finish within the time-out 20
 </failure>
     <system-out><![CDATA[15_______________
 Range is not matched!
 ]]></system-out>
-    <system-err><![CDATA[Jan 15, 2025 3:17:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+    <system-err><![CDATA[Jan 15, 2025 9:54:54 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-Jan 15, 2025 3:17:25 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jan 15, 2025 9:54:55 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="basicTest" classname="com.TC01_ValidateMessage" time="4.257">
+  <testcase name="basicTest" classname="com.TC01_ValidateMessage" time="3.512">
     <failure message="Method com.TC01_ValidateMessage.basicTest() didn&apos;t finish within the time-out 20" type="org.testng.internal.thread.ThreadTimeoutException">org.testng.internal.thread.ThreadTimeoutException: Method com.TC01_ValidateMessage.basicTest() didn't finish within the time-out 20
 </failure>
     <system-out><![CDATA[TestFinished
 ]]></system-out>
   </testcase>
-  <testcase name="basicTest" classname="com.TC01_ValidateMessage" time="7.836">
+  <testcase name="basicTest" classname="com.TC01_ValidateMessage" time="2.767">
+    <failure message="Method com.TC01_ValidateMessage.basicTest() didn&apos;t finish within the time-out 20" type="org.testng.internal.thread.ThreadTimeoutException">org.testng.internal.thread.ThreadTimeoutException: Method com.TC01_ValidateMessage.basicTest() didn't finish within the time-out 20
+</failure>
+    <system-out><![CDATA[TestFinished
+]]></system-out>
+    <system-err><![CDATA[Jan 15, 2025 9:53:34 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Jan 15, 2025 9:53:37 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="basicTest" classname="com.TC01_ValidateMessage" time="7.706">
     <failure message="Method com.TC01_ValidateMessage.basicTest() didn&apos;t finish within the time-out 20" type="org.testng.internal.thread.ThreadTimeoutException">org.testng.internal.thread.ThreadTimeoutException: Method com.TC01_ValidateMessage.basicTest() didn't finish within the time-out 20
 </failure>
     <system-out><![CDATA[TestFinished
 ]]></system-out>
   </testcase>
-  <testcase name="basicTest" classname="com.TC01_ValidateMessage" time="7.246">
-    <failure message="Method com.TC01_ValidateMessage.basicTest() didn&apos;t finish within the time-out 20" type="org.testng.internal.thread.ThreadTimeoutException">org.testng.internal.thread.ThreadTimeoutException: Method com.TC01_ValidateMessage.basicTest() didn't finish within the time-out 20
-</failure>
-    <system-out><![CDATA[TestFinished
-]]></system-out>
-    <system-err><![CDATA[Jan 15, 2025 3:16:34 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-Jan 15, 2025 3:16:37 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="basicTest" classname="com.TC01_ValidateMessage" time="3.757">
+  <testcase name="basicTest" classname="com.TC01_ValidateMessage" time="4.053">
     <failure message="Method com.TC01_ValidateMessage.basicTest() didn&apos;t finish within the time-out 20" type="org.testng.internal.thread.ThreadTimeoutException">org.testng.internal.thread.ThreadTimeoutException: Method com.TC01_ValidateMessage.basicTest() didn't finish within the time-out 20
 </failure>
   </testcase>
-  <testcase name="formSubmissionTest" classname="com.TC03_InputFormSubmission" time="4.405">
+  <testcase name="formSubmissionTest" classname="com.TC03_InputFormSubmission" time="4.211">
     <failure message="Method com.TC03_InputFormSubmission.formSubmissionTest() didn&apos;t finish within the time-out 20" type="org.testng.internal.thread.ThreadTimeoutException">org.testng.internal.thread.ThreadTimeoutException: Method com.TC03_InputFormSubmission.formSubmissionTest() didn't finish within the time-out 20
 </failure>
-    <system-err><![CDATA[Jan 15, 2025 3:14:00 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+    <system-err><![CDATA[Jan 15, 2025 9:53:21 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="formSubmissionTest" classname="com.TC03_InputFormSubmission" time="11.75">
+  <testcase name="formSubmissionTest" classname="com.TC03_InputFormSubmission" time="7.441">
     <failure message="Method com.TC03_InputFormSubmission.formSubmissionTest() didn&apos;t finish within the time-out 20" type="org.testng.internal.thread.ThreadTimeoutException">org.testng.internal.thread.ThreadTimeoutException: Method com.TC03_InputFormSubmission.formSubmissionTest() didn't finish within the time-out 20
 </failure>
-    <system-err><![CDATA[Jan 15, 2025 3:15:04 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+    <system-err><![CDATA[Jan 15, 2025 9:53:54 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="formSubmissionTest" classname="com.TC03_InputFormSubmission" time="12.894">
+  <testcase name="formSubmissionTest" classname="com.TC03_InputFormSubmission" time="8.773">
     <failure message="Method com.TC03_InputFormSubmission.formSubmissionTest() didn&apos;t finish within the time-out 20" type="org.testng.internal.thread.ThreadTimeoutException">org.testng.internal.thread.ThreadTimeoutException: Method com.TC03_InputFormSubmission.formSubmissionTest() didn't finish within the time-out 20
 </failure>
-    <system-err><![CDATA[Jan 15, 2025 3:17:00 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+    <system-err><![CDATA[Jan 15, 2025 9:54:36 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="formSubmissionTest" classname="com.TC03_InputFormSubmission" time="2.936">
+  <testcase name="formSubmissionTest" classname="com.TC03_InputFormSubmission" time="2.204">
     <failure message="Method com.TC03_InputFormSubmission.formSubmissionTest() didn&apos;t finish within the time-out 20" type="org.testng.internal.thread.ThreadTimeoutException">org.testng.internal.thread.ThreadTimeoutException: Method com.TC03_InputFormSubmission.formSubmissionTest() didn't finish within the time-out 20
 </failure>
-    <system-err><![CDATA[Jan 15, 2025 3:17:37 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+    <system-err><![CDATA[Jan 15, 2025 9:55:08 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>

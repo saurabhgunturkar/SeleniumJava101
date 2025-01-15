@@ -6,13 +6,6 @@
     <parameter name="version" value="128"/>
     <parameter name="platform" value="WIN10"/>
     <classes>
-      <class name="com.TC01_ValidateMessage">
-        <methods>
-          <include name="tearDown"/>
-          <include name="basicTest"/>
-          <include name="windows10_chrome_133_setup"/>
-        </methods>
-      </class> <!-- com.TC01_ValidateMessage -->
       <class name="com.TC03_InputFormSubmission">
         <methods>
           <include name="formSubmissionTest"/>
@@ -27,6 +20,13 @@
           <include name="dragDropTest"/>
         </methods>
       </class> <!-- com.TC02_DragAndDropSliders -->
+      <class name="com.TC01_ValidateMessage">
+        <methods>
+          <include name="tearDown"/>
+          <include name="basicTest"/>
+          <include name="windows10_chrome_133_setup"/>
+        </methods>
+      </class> <!-- com.TC01_ValidateMessage -->
     </classes>
   </test> <!-- Test1(failed) -->
   <test thread-count="2" parallel="classes" name="Test2(failed)" verbose="0">
@@ -34,13 +34,6 @@
     <parameter name="version" value="127"/>
     <parameter name="platform" value="MAC"/>
     <classes>
-      <class name="com.TC01_ValidateMessage">
-        <methods>
-          <include name="tearDown"/>
-          <include name="basicTest"/>
-          <include name="windows10_chrome_133_setup"/>
-        </methods>
-      </class> <!-- com.TC01_ValidateMessage -->
       <class name="com.TC03_InputFormSubmission">
         <methods>
           <include name="formSubmissionTest"/>
@@ -55,6 +48,13 @@
           <include name="dragDropTest"/>
         </methods>
       </class> <!-- com.TC02_DragAndDropSliders -->
+      <class name="com.TC01_ValidateMessage">
+        <methods>
+          <include name="tearDown"/>
+          <include name="basicTest"/>
+          <include name="windows10_chrome_133_setup"/>
+        </methods>
+      </class> <!-- com.TC01_ValidateMessage -->
     </classes>
   </test> <!-- Test2(failed) -->
   <test thread-count="2" parallel="classes" name="Test3(failed)" verbose="0">
@@ -62,13 +62,6 @@
     <parameter name="version" value="130"/>
     <parameter name="platform" value="WIN11"/>
     <classes>
-      <class name="com.TC01_ValidateMessage">
-        <methods>
-          <include name="tearDown"/>
-          <include name="basicTest"/>
-          <include name="windows10_chrome_133_setup"/>
-        </methods>
-      </class> <!-- com.TC01_ValidateMessage -->
       <class name="com.TC03_InputFormSubmission">
         <methods>
           <include name="formSubmissionTest"/>
@@ -83,6 +76,13 @@
           <include name="dragDropTest"/>
         </methods>
       </class> <!-- com.TC02_DragAndDropSliders -->
+      <class name="com.TC01_ValidateMessage">
+        <methods>
+          <include name="tearDown"/>
+          <include name="basicTest"/>
+          <include name="windows10_chrome_133_setup"/>
+        </methods>
+      </class> <!-- com.TC01_ValidateMessage -->
     </classes>
   </test> <!-- Test3(failed) -->
   <test thread-count="2" parallel="classes" name="Test4(failed)" verbose="0">
@@ -90,13 +90,6 @@
     <parameter name="version" value="11"/>
     <parameter name="platform" value="WIN10"/>
     <classes>
-      <class name="com.TC01_ValidateMessage">
-        <methods>
-          <include name="tearDown"/>
-          <include name="basicTest"/>
-          <include name="windows10_chrome_133_setup"/>
-        </methods>
-      </class> <!-- com.TC01_ValidateMessage -->
       <class name="com.TC03_InputFormSubmission">
         <methods>
           <include name="formSubmissionTest"/>
@@ -111,6 +104,13 @@
           <include name="dragDropTest"/>
         </methods>
       </class> <!-- com.TC02_DragAndDropSliders -->
+      <class name="com.TC01_ValidateMessage">
+        <methods>
+          <include name="tearDown"/>
+          <include name="basicTest"/>
+          <include name="windows10_chrome_133_setup"/>
+        </methods>
+      </class> <!-- com.TC01_ValidateMessage -->
     </classes>
   </test> <!-- Test4(failed) -->
 </suite> <!-- Failed suite [Suite] -->
