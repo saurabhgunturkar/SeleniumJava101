@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="methods" name="Suite">
+
+ <!-- <test name="AutomationTestingCertification1">
+        <parameter name="browser" value="chrome" />
+        <parameter name="version" value="86.0" />
+        <parameter name="platform" value="WIN10" />
+        <classes>
+            <class name="AutomationTestingCertfication.TestScenario" />
+        </classes>
+    </test> -->
+
+     <test name="AutomationTestingCertification2">
+        <parameter name="browser" value="edge" />
+        <parameter name="version" value="87.0" />
+        <parameter name="platform" value="MAC" />
+        <classes>
+            <class name="AutomationTestingCertfication.TestScenario" />
+        </classes>
+    </test>
+
+</suite>
